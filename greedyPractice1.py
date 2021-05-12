@@ -5,7 +5,6 @@ N = int(input())
 coin_sum = 0
 
 for change in changes:
-    if(N>=change):
-        coin_sum += N//change
-        N = N % change
+    coin_sum += N//change
+    N = N % change
 print(coin_sum)
