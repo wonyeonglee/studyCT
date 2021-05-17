@@ -1,6 +1,6 @@
 #게임 개발
 
-n,m = map(int, input("맵크기 n* m: ").split())
+n,m = map(int, input("맵크기 n* m: ").split()) #맵 크기 입력받기
 a,b,d = map(int, input("위치와 방향: ").split())
 
 map = []
@@ -33,7 +33,8 @@ while True:
 
             if(turn_time==4): #모든 방향에 갈 자리가 없다면
                 #한칸 뒤로 간다
-                if(a-dA[i])
+                if(a-dA[i]):
+
 
 
 
